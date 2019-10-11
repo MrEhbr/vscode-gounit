@@ -1,0 +1,47 @@
+{
+	"name": "vscode-gounit",
+	"displayName": "vscode-gounit",
+	"description": "gounit vscode extension",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.38.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:gounit.gen.file",
+		"onCommand:gounit.gen.function"
+	],
+	"main": "./out/goMain.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "gounit.gen.file",
+				"title": "GoUnit: Generate test for file"
+			},
+			{
+				"command": "gounit.gen.function",
+				"title": "GoUnit: Generate test for function"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "yarn run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "yarn run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.39.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.2.0"
+	}
+}
