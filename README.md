@@ -20,6 +20,7 @@ This extension contributes the following settings:
 
 * `go.gounit.flags`: additional gounit flags
 ## Release Notes
+
 ### 1.0.0
 
-Initial release of vscode-gounit
+  Initial release of vscode-gounit
