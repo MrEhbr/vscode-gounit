@@ -2,7 +2,7 @@
 	"name": "vscode-gounit",
 	"displayName": "vscode-gounit",
 	"description": "gounit vscode extension",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "mrehbr",
 	"repository": {
 		"url": "https://github.com/MrEhbr/vscode-gounit",
