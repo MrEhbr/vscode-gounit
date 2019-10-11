@@ -18,7 +18,7 @@ go get -u github.com/hexdigest/gounit/cmd/gounit
 ## Extension Settings
 This extension contributes the following settings:
 
-* `go.gounit.flags`: additional gounit flag
+* `go.gounit.flags`: additional gounit flags
 ## Release Notes
 ### 1.0.0
 

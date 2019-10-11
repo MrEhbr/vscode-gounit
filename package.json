@@ -3,8 +3,13 @@
 	"displayName": "vscode-gounit",
 	"description": "gounit vscode extension",
 	"version": "1.0.0",
+	"publisher": "mrehbr",
+	"repository": {
+		"url": "https://github.com/MrEhbr/vscode-gounit",
+		"type": "git"
+	},
 	"engines": {
-		"vscode": "^1.38.1"
+		"vscode": "^1.39.0"
 	},
 	"categories": [
 		"Other"
